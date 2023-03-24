@@ -31,7 +31,7 @@ const Navbar = () => {
             <Typography variant='h6' sx={{ display: { xs: "none", sm: "block" } }}>Navbar🐱</Typography>
             <SickRounded sx={{ display: { xs: "block", sm: "none  " } }} />
             <Search>
-                <InputBase placeholder='Search...' sx={{ color: "black"}}/>
+                <InputBase placeholder='Search...' sx={{ color: "black", width: '100%'}}/>
             </Search>
             <Icons sx={{ display: { xs: 'none', sm: 'flex'}}}>
                 <Badge badgeContent={4} color="error">
